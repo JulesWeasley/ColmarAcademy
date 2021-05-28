@@ -1,0 +1,34 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#lion {
+    height: 50px;
+    padding-left: 24px;
+    padding-top: 20;
+    float: left;
+}
+
+#colmar {
+    height: 32px;
+    opacity: 1;
+    font-weight: bold;
+}
+
+#academy {
+    height: 32px;
+    opacity: 0.8;
+    font-weight: 1;
+}
+
+#logotext  {
+    float: left;
+}
+
+#nav {
+    float: right;
+}
+
+h1 {
+    display: block;
+}
