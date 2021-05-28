@@ -101,7 +101,6 @@ button {
 }
 
 .main-col {
-    margin-top: 32px;
     width: 40%; 
 }
 
@@ -114,6 +113,15 @@ button {
 
 .box img {
     padding: 16px;
+    width: 35%;
 }
 
+.readmore {
+    color: blue;
+    padding-top: 8px;
+}
 
+.gray {
+    color: rgb(68, 67, 67);
+    font-size: 35px;
+}
