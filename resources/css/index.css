@@ -49,10 +49,12 @@ h1 {
 
 .banner {
     background-color: rgb(211, 202, 202);
+    color: grey;
 }
 
 .banner h1 {
-    color: rgb(83, 81, 81);
+    color: rgb(68, 67, 67);
+    font-size: 50px;
 }
 
 .banner img {
@@ -61,11 +63,10 @@ h1 {
     margin-bottom: 32px;
     margin-right: 24px;
     margin-left: 24px;
-    display: inline-block;
     float: left;
-    background-color: grey;
+}
 
-.banner .bannertext {
+.banner-text {
     display: inline;
-    float: :right;
+    float: right;
 }
