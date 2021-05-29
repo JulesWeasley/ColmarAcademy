@@ -125,3 +125,7 @@ button {
     color: rgb(68, 67, 67);
     font-size: 35px;
 }
+
+.start h1 {
+    text-align: center;
+}
