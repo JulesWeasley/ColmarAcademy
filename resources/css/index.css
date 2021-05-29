@@ -113,7 +113,7 @@ button {
 
 .box img {
     padding: 16px;
-    width: 35%;
+    width: 25%;
 }
 
 .readmore {
@@ -176,4 +176,14 @@ button {
     flex-wrap: wrap;
     align-content: space-around;
     margin-bottom: 32px;
+}
+
+.exibits h1{
+    text-align: center;
+    margin: 32px;
+}
+
+.exibits video {
+    width: 60%;
+    margin: 24px;
 }
