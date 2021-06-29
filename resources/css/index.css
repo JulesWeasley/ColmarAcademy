@@ -40,8 +40,9 @@ h1 {
     height: 64px;
 }
 
-#nav span {
+#nav div {
     margin: 16px;
+    display: inline-block;
 } 
 
 .sign {
@@ -49,16 +50,17 @@ h1 {
 } 
 
 .banner {
-    background-color: rgb(211, 202, 202);
+    background-color: rgb(211, 198, 198);
     color: grey;
     display: flex;
     width: 60%;
 }
 
 
-.banner h1 {
+.bannertext h1 {
     color: rgb(68, 67, 67);
     font-size: 50px;
+
 }
 
 .banner img {
@@ -72,11 +74,13 @@ h1 {
 .bannertext {
     padding-bottom: 100px;
     margin: 30px;
+    padding: 30px;
 }
 
 .bigb{
     width: 100%;
-    background-color: rgb(211, 202, 202);
+    background-color: rgb(211, 198, 198);
+    display: flex;
 }
 button{
     height: 50px;
@@ -111,7 +115,7 @@ button{
 }
 
 .box {
-    display: inline-flex;
+    display: flex;
     margin: 10px;
     padding: 10px;
     flex-wrap: wrap;
@@ -251,7 +255,139 @@ footer div {
     float:right
 }
 
+.swap {
+    display: none;
+}
 
-@media only screen and (max-width: 480px) {
+#nav div img {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    #colmar{
+        display: none;
+    }
+
+    #academy {
+        display: none;
+    }
+
+    footer div{
+        display: none
+    }
+
+    #main-part1{
+        display: none;
+    }
+
+    .topic p{
+        display: none;
+    }
+    .topic img{
+        display: none;
+    }
+
+    .topic {
+        background-color: rgb(184, 176, 176);
+        margin: 8px;
+    }
+
+    .topics {
+        padding-bottom: 32px;
+    }
+
+    .articles {
+        display: none;
+    }
+
+    .video p {
+        display: none;
+    }
+    .video h3 {
+        display: none;
+    }
+
+    .exibits h1 {
+        padding-top: 32px;
+        padding-bottom: 16px;
+    }
+
+    .exibits{
+        padding-top: 0px;
+    }
+
+    video {
+        padding-top: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    .video {
+        width: 100%;
+        padding-right: 40px;
+    }
+
+    .banner {
+        width: 90%;
+    }
+
+    .bannertext{
+        display: block;
+    }
     
-  }
+    .bigb{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .non {
+        display: none;
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+        display: flex;
+    }
+
+    .main-col{
+        margin: auto;
+    }
+
+    .swap {
+        display: block;
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-col{
+        height: auto;
+        width: 100%;
+    }
+
+    .main {
+        height: auto;
+    }
+
+    #nav div img {
+        display: inline-block;
+        height: 50px;
+    }
+
+    #nav div span {
+        display: none;
+    }
+
+    .menu{
+        display:block;
+    }
+
+    #logotext{
+        display: none;
+    }
+
+    #lion {
+        display: none;
+    }
+}
